@@ -14,6 +14,7 @@ let handler = async (m) => {
     let user = global.db.data.users[who]
 let tqto = `
 *BIG THANKS TO*
+Tuhan Saya Allah SWT
 
 Nurutomo: 
 https://github.com/Nurutomo
@@ -36,7 +37,7 @@ https://github.com/amiruldev20
            hydratedButtons: [{
              urlButton: {
                displayText: '💠 Source Code',
-               url: 'https://github.com/ilmanhdyt/ShiraoriBOT-Md'
+               url: 'https://github.com/Fourzylol/jemer'
              }
 
            },
