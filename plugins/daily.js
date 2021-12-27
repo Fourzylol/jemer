@@ -1,5 +1,5 @@
-const free = 500
-const prem = 5000
+const free = 5000
+const prem = 5000000
 let handler = async (m, { conn, usedPrefix, isPrems }) => {
   if (db.data.users[m.sender].level < 1) throw `Naikkan level kamu dengar mengetikkan\n${usedPrefix}levelup`
   let time = db.data.users[m.sender].lastclaim + 86400000
