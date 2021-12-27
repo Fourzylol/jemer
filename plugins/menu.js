@@ -49,8 +49,8 @@ const defaultMenu = {
   body: '│ • %cmd %islimit %isPremium',
   footer: '╰────\n',
   after: `
-*%npmname@^%version*
-${'```%npmdesc```'}
+*JemerBot@^%version*
+${'```%FourzyLol```'}
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p }) => {
@@ -163,14 +163,14 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
            hydratedButtons: [{
              urlButton: {
                displayText: '💠 Source Code',
-               url: 'https://github.com/ilmanhdyt/ShiraoriBOT-Md'
+               url: 'https://github.com/Fourzylol/jemer'
              }
 
            },
              {
              callButton: {
                displayText: 'Nomor Owner',
-               PhoneNumber: '0813-5104-7727'
+               PhoneNumber: '0857-4860-0473'
              }
 
            },
